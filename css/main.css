@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #333;
+}
+#wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#mainHeader {
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5847/viewport-selection-opt.jpg) no-repeat 50% 50%;
+	color: rgb(147, 147, 147);
+	text-align: center;
+	padding: 10rem;
+}
+#mainSection {
+	
+}
+picture img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#mainFooter {
+	background: rgb(18, 18, 18);
+	color: rgb(147, 147, 147);
+	text-align: center;
+	padding: 10px;
+}
+@media (min-width: 600px) {
+	#mainSection {
+		-webkit-column-count: 2;
+		-webkit-column-gap: 10px;
+	}
+}
+@media (min-width: 1024px) {
+	#mainSection {
+		-webkit-column-count: 3;
+		-webkit-column-gap: 10px;
+	}
+}
